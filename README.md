@@ -1,12 +1,6 @@
 ## Magento2 Hyvä Tailwind CSS Purge For CMS Pages & Blocks
 
-
-
-
-https://github.com/dharmesh-tukadiya/hyva-cms-tailwind-purge/assets/140082778/d647da57-801e-484e-9f46-792f38d4f987
-
-
-
+[![Magento2 Hyvä Tailwind CSS Purge For CMS Pages & Blocks](https://github.com/dharmesh-tukadiya/hyva-cms-tailwind-purge/assets/140082778/d647da57-801e-484e-9f46-792f38d4f987)](https://github.com/dharmesh-tukadiya/hyva-cms-tailwind-purge/assets/140082778/d647da57-801e-484e-9f46-792f38d4f987)
 
 This module is designed for using custom Hyvä based child theme's tailwind css configurations in the cms pages and blocks.
 
