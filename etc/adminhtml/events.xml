@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="cms_page_save_after">
+        <observer name="hyva_cms_page_css_purge" instance="DnTukadiya\HyvaCMSTailwindPurge\Observer\CMSPage" />
+    </event>
+    <event name="cms_page_delete_after">
+        <observer name="hyva_cms_page_css_purge_delete" instance="DnTukadiya\HyvaCMSTailwindPurge\Observer\CMSPageDelete" />
+    </event>
+    <event name="cms_block_save_after">
+        <observer name="hyva_cms_block_css_purge" instance="DnTukadiya\HyvaCMSTailwindPurge\Observer\CMSBlock" />
+    </event>
+    <event name="cms_block_delete_after">
+        <observer name="hyva_cms_block_css_purge_delete" instance="DnTukadiya\HyvaCMSTailwindPurge\Observer\CMSBlockDelete" />
+    </event>
+</config>

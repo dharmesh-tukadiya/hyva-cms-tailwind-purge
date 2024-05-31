@@ -1,0 +1,41 @@
+{
+    "name": "dharmesh-tukadiya/hyva-cms-tailwind-purge",
+    "description": "Hyvä CMS Tailwind Purge - Highly Helpful for Hyvä Frontend Developers",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Dharmesh N Tukadiya",
+            "homepage": "https://github.com/dharmesh-tukadiya/",
+            "role": "Magento2 Developer || Hyvä Themes Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "keywords": [
+        "magento",
+        "magento tailwind css purge",
+        "magento 2",
+        "magento 2 tailwind css purge",
+        "magento hyva cms tailwind purge",
+        "magento 2 hyva cms tailwind purge",
+        "Hyvä Themes",
+        "Hyvä Themes CMSTailwindJIT",
+        "Magento Hyvä",
+        "Magento Hyvä CMSTailwindJIT"
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "magento/framework": "*",
+        "hyva-themes/magento2-default-theme": "^1.3",
+        "magento/product-community-edition": ">=2.4.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "DnTukadiya\\HyvaWidgets\\": ""
+        }
+    }
+}

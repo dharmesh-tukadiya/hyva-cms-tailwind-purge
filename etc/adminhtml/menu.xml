@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="DnTukadiya_HyvaCMSTailwindPurge::tailwind_css_purge" title="Tailwind CSS Purge" translate="title" module="DnTukadiya_HyvaCMSTailwindPurge" sortOrder="10" parent="Magento_Backend::content" resource="DnTukadiya_HyvaCMSTailwindPurge::tailwind_css_purge"/>
+        <add id="DnTukadiya_HyvaCMSTailwindPurge::cms_block_tailwind" title="Blocks" translate="title" module="DnTukadiya_HyvaCMSTailwindPurge" sortOrder="0" parent="DnTukadiya_HyvaCMSTailwindPurge::tailwind_css_purge" action="hyva_cms_css/purge/blocks" resource="DnTukadiya_HyvaCMSTailwindPurge::cms_block_tailwind"/>
+        <add id="DnTukadiya_HyvaCMSTailwindPurge::cms_page_tailwind" title="Pages" translate="title" module="DnTukadiya_HyvaCMSTailwindPurge" sortOrder="30" parent="DnTukadiya_HyvaCMSTailwindPurge::tailwind_css_purge" action="hyva_cms_css/purge/pages" resource="Magento_Cms::cms_page_tailwind"/>
+    </menu>
+</config>
