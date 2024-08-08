@@ -35,7 +35,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "DnTukadiya\\HyvaWidgets\\": ""
+            "DnTukadiya\\HyvaCMSTailwindPurge\\": ""
         }
     }
 }
